@@ -118,6 +118,10 @@ table {
   color: white;
 }
 
+.bike__photo {
+  display: block;
+  margin: 0 auto;
+}
 .bike__type {
   font-family: Poppins;
   font-weight: 700;
