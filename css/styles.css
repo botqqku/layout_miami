@@ -163,4 +163,17 @@ table {
   object-fit: cover;
 }
 
+.button {
+  border-radius: 40px;
+  background-color: white;
+  color: #1D1D1D;
+  text-decoration: none;
+  height: 56px;
+  display: block;
+  text-align: center;
+  line-height: 56px;
+  font-family: Poppins, sans-serif;
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=styles.css.map */
