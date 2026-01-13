@@ -64,14 +64,17 @@ table {
 }
 
 .header {
-  background-color: aqua;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   box-sizing: border-box;
-  padding: 0 20px 80px;
+  padding: 0 20px 90px;
   color: white;
+  background-image: url("../../images/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
