@@ -63,4 +63,15 @@ table {
   vertical-align: middle;
 }
 
+.header {
+  background-color: aqua;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 0 20px 80px;
+  color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
