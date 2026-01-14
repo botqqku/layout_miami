@@ -174,24 +174,24 @@ table {
   text-decoration: none;
   height: 56px;
   display: block;
-  text-align: center;
-  line-height: 56px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-weight: 700;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 0 20px;
 }
 .button--primary {
-  border-radius: 40px;
-  background-color: white;
-  color: #1D1D1D;
-  text-decoration: none;
-  height: 56px;
-  display: block;
-  text-align: center;
-  line-height: 56px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #1D1D1D;
 }
 
 .form {
@@ -274,6 +274,21 @@ table {
   background-repeat: no-repeat;
   background-position: center;
   background-position-x: 83%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+.navigation__icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navigation__logo {
+  height: 38px;
 }
 
 /*# sourceMappingURL=styles.css.map */
