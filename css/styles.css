@@ -107,6 +107,7 @@ table {
   background-image: url("../images/background-fullphoto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: 87%;
 }
 
 .main {
@@ -354,12 +355,10 @@ table {
   text-decoration: none;
   padding-bottom: 8px;
   border-bottom: 1px solid transparent;
+  margin-bottom: 121px;
 }
 .menu__call-link:hover {
   border-bottom: 1px solid #1D1D1D;
-}
-.menu__links {
-  padding-bottom: 40px;
 }
 
 .links {
