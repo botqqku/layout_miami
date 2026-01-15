@@ -298,6 +298,36 @@ table {
   display: flex;
   flex-direction: column;
 }
+.menu__paragraph {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #1D1D1D;
+  margin-bottom: 16px;
+}
+.menu__call-link {
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1D1D1D;
+  text-decoration: none;
+  padding-bottom: 8px;
+  border-bottom: 1px solid transparent;
+}
+.menu__call-link:hover {
+  border-bottom: 1px solid #1D1D1D;
+}
+.menu__links {
+  padding-bottom: 40px;
+}
 
 .links {
   padding-top: 48px;
