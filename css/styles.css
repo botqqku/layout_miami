@@ -104,7 +104,7 @@ table {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 0 20px 88px;
-  background-image: url("../images/background-fullphoto.jpg");
+  background-image: url("../../images/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: 87%;
@@ -207,7 +207,7 @@ table {
   color: #1D1D1D;
 }
 .button__explore {
-  margin-bottom: 80px;
+  margin-bottom: 16px;
 }
 .button__send {
   margin-bottom: 48px;
@@ -288,6 +288,9 @@ table {
   letter-spacing: 0px;
   margin-bottom: 24px;
 }
+.address__spacing {
+  margin-bottom: 120px;
+}
 
 .footer {
   height: 200px;
@@ -306,6 +309,7 @@ table {
   justify-content: space-between;
   align-items: center;
   padding-top: 25px;
+  margin-bottom: 48px;
 }
 .navigation__icons {
   display: flex;
@@ -361,9 +365,6 @@ table {
   border-bottom: 1px solid #1D1D1D;
 }
 
-.links {
-  padding-top: 48px;
-}
 .links__list {
   display: flex;
   flex-direction: column;
@@ -386,6 +387,9 @@ table {
 }
 .links__link:hover {
   border-bottom: 1px solid #1D1D1D;
+}
+.links__spacing {
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
