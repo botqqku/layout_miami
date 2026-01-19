@@ -473,10 +473,62 @@ table {
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
   background-color: #C2C2C2;
-  padding: 0 20px 20px;
+  padding: 0 20px;
   min-height: 100vh;
+}
+.menu__contact-box {
+  grid-column: span 2;
   display: flex;
   flex-direction: column;
+  gap: 16px;
+}
+.menu {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 130px);
+  gap: 20px;
+}
+@media (min-width: 600px) {
+  .menu {
+    grid-template-columns: repeat(6, 80px);
+    gap: 24px;
+  }
+}
+@media (min-width: 1020px) {
+  .menu {
+    grid-template-columns: repeat(12, 63px);
+    gap: 24px;
+  }
+}
+.menu {
+  row-gap: 0px;
+}
+.menu__navigation {
+  grid-column: span 2;
+}
+@media (min-width: 600px) {
+  .menu__navigation {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1020px) {
+  .menu__navigation {
+    grid-column: span 12;
+  }
+}
+.menu__links {
+  margin-bottom: 20px;
+  grid-column: span 2;
+}
+@media (min-width: 600px) {
+  .menu__links {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1020px) {
+  .menu__links {
+    grid-column: span 12;
+  }
 }
 .menu:target {
   transform: translateX(0);
@@ -490,7 +542,17 @@ table {
   letter-spacing: 0px;
   text-transform: uppercase;
   color: #1D1D1D;
-  margin-bottom: 16px;
+  grid-column: span 2;
+}
+@media (min-width: 600px) {
+  .menu__paragraph {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1020px) {
+  .menu__paragraph {
+    grid-column: span 12;
+  }
 }
 .menu__call-link {
   font-family: Poppins;
@@ -504,12 +566,14 @@ table {
   text-decoration: none;
   padding-bottom: 8px;
   border-bottom: 1px solid transparent;
-  margin-bottom: 121px;
 }
 .menu__call-link:hover {
   border-bottom: 1px solid #1D1D1D;
 }
 
+.links {
+  margin-bottom: 8px;
+}
 .links__list {
   display: flex;
   flex-direction: column;
@@ -528,13 +592,9 @@ table {
   border-bottom: 1px solid transparent;
   color: #1D1D1D;
   text-decoration: none;
-  padding-bottom: 8px;
 }
 .links__link:hover {
   border-bottom: 1px solid #1D1D1D;
-}
-.links__spacing {
-  margin-bottom: 40px;
 }
 
 .grid {
