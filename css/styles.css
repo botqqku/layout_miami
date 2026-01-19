@@ -71,7 +71,6 @@ table {
   letter-spacing: -1.5px;
   color: white;
   text-align: left;
-  margin-bottom: 32px;
 }
 .title--section {
   font-family: Poppins;
@@ -83,6 +82,7 @@ table {
   text-align: center;
   text-transform: capitalize;
   color: white;
+  margin-bottom: 48px;
 }
 .title--tertiary {
   font-family: Poppins;
@@ -155,7 +155,7 @@ table {
 }
 
 .main {
-  padding: 60px 20px;
+  padding-top: 60px;
   font-family: Poppins;
   font-weight: 500;
   font-style: Medium;
@@ -183,14 +183,32 @@ table {
   }
 }
 .main__title {
-  margin-bottom: 48px;
+  margin-bottom: 12p;
   grid-column: 1/3;
+}
+@media (min-width: 1020px) {
+  .main__title {
+    grid-column: 1/7;
+  }
 }
 .main__content {
   grid-column: 1/3;
 }
+@media (min-width: 1020px) {
+  .main__content {
+    grid-column: 7/13;
+  }
+}
 .main__paragraph {
-  margin-bottom: 92px;
+  margin-bottom: 40px;
+}
+.main__section {
+  grid-column: 1/3;
+}
+@media (min-width: 1020px) {
+  .main__section {
+    grid-column: 1/13;
+  }
 }
 
 .bike__photo {
@@ -275,7 +293,7 @@ table {
   color: #1D1D1D;
 }
 .button__explore {
-  margin-bottom: 16px;
+  margin-bottom: 28px;
 }
 .button__send {
   margin-bottom: 48px;
@@ -332,7 +350,7 @@ table {
 }
 
 .section {
-  padding: 64px 0 0;
+  padding: 32px 0 0;
 }
 
 .address {
