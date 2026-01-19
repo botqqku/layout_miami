@@ -614,4 +614,36 @@ table {
   }
 }
 
+.burger::before {
+  content: "";
+  background-image: url(../../images/menu-vector.svg);
+  background-size: cover;
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+}
+.burger::after {
+  display: none;
+  content: "";
+  background-image: url(../../images/menu-vector--hover.svg);
+  background-size: cover;
+  width: 18px;
+  height: 12px;
+}
+.burger:hover::before {
+  display: none;
+}
+.burger:hover::after {
+  display: inline-block;
+}
+.burger__label {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 /*# sourceMappingURL=styles.css.map */
