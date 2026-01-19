@@ -1,0 +1,19 @@
+@use '../utils/mixins.scss' as *;
+
+.grid {
+
+  @include grid ();
+
+  &__bike {
+    grid-column: span 2;
+
+    @include Ipad-600() {
+      grid-column: span 6;
+    }
+
+    @include Desktop-1020() {
+      grid-column: span 4;
+
+    }
+  }
+}

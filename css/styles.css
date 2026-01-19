@@ -537,4 +537,36 @@ table {
   margin-bottom: 40px;
 }
 
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 130px);
+  gap: 20px;
+}
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(6, 80px);
+    gap: 24px;
+  }
+}
+@media (min-width: 1020px) {
+  .grid {
+    grid-template-columns: repeat(12, 63px);
+    gap: 24px;
+  }
+}
+.grid__bike {
+  grid-column: span 2;
+}
+@media (min-width: 600px) {
+  .grid__bike {
+    grid-column: span 6;
+  }
+}
+@media (min-width: 1020px) {
+  .grid__bike {
+    grid-column: span 4;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
