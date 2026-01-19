@@ -502,6 +502,7 @@ table {
 }
 .menu {
   row-gap: 0px;
+  align-items: start;
 }
 .menu__navigation {
   grid-column: span 2;
@@ -534,6 +535,7 @@ table {
   transform: translateX(0);
 }
 .menu__paragraph {
+  white-space: nowrap;
   font-family: Poppins;
   font-weight: 600;
   font-style: SemiBold;
