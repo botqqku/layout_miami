@@ -12,23 +12,9 @@
   box-sizing: border-box;
   padding: 0 20px 88px;
 
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
 
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(2, 130px);
-  gap: 20px;
-
-  @include Ipad-600() {
-  grid-template-columns: repeat(6, 80px);
-  gap: 24px;
-  }
-
-  @include Desktop-1020() {
-  grid-template-columns: repeat(12, 63px);
-  gap: 24px;
-  }
+  @include grid();
 
   &__navigation {
       align-self: start;
