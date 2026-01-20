@@ -454,7 +454,6 @@ table {
   justify-content: space-between;
   align-items: center;
   padding-top: 25px;
-  margin-bottom: 48px;
 }
 .navigation__icons {
   display: flex;
@@ -518,7 +517,6 @@ table {
   }
 }
 .menu__links {
-  margin-bottom: 20px;
   grid-column: span 2;
 }
 @media (min-width: 600px) {
