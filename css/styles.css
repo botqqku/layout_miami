@@ -460,6 +460,19 @@ table {
   align-items: center;
   gap: 20px;
 }
+.navigation__close-icon {
+  height: 16px;
+}
+@media (min-width: 600px) {
+  .navigation__close-icon {
+    height: 21px;
+  }
+}
+@media (min-width: 1020px) {
+  .navigation__close-icon {
+    height: 21px;
+  }
+}
 .navigation__logo {
   height: 38px;
 }
