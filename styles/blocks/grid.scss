@@ -7,11 +7,11 @@
   &__bike {
     grid-column: span 2;
 
-    @include Ipad-600() {
+    @include Ipad-744() {
       grid-column: span 6;
     }
 
-    @include Desktop-1020() {
+    @include Desktop-1260() {
       grid-column: span 4;
 
     }

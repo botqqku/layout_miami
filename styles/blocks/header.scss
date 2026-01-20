@@ -21,11 +21,11 @@
       grid-column: 1 / 3;
       grid-row: 1 / 2;
 
-      @include Ipad-600() {
+      @include Ipad-744() {
       grid-column: 1 / 7;
   }
 
-      @include Desktop-1020() {
+      @include Desktop-1260() {
       grid-column: 1 / 13;
   }
     }
@@ -35,11 +35,11 @@
       grid-column: 1 / 3;
       grid-row: 2 / 3;
 
-      @include Ipad-600() {
+      @include Ipad-744() {
       grid-column: 1 / 7;
   }
 
-      @include Desktop-1020() {
+      @include Desktop-1260() {
       grid-column: 1 / 13;
   }
     }

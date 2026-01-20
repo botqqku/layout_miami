@@ -11,13 +11,13 @@ display: inline-block;
 width: 18px;
 height: 12px;
 
-@include Ipad-600() {
+@include Ipad-744() {
   width: 24px;
   height: 16px;
 
 }
 
-@include Desktop-1020(){
+@include Desktop-1260(){
   width: 24px;
   height: 16px;
 
@@ -32,13 +32,13 @@ background-size: cover;
 width: 18px;
 height: 12px;
 
-@include Ipad-600() {
+@include Ipad-744() {
   width: 24px;
   height: 24px;
 
 }
 
-@include Desktop-1020(){
+@include Desktop-1260(){
   width: 24px;
   height: 16px;
 

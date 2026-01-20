@@ -1,11 +1,11 @@
-@mixin Ipad-600() {
-  @media (min-width: 600px) {
+@mixin Ipad-744() {
+  @media (min-width: 744px) {
     @content;
   }
 }
 
-@mixin Desktop-1020() {
-  @media (min-width: 1020px) {
+@mixin Desktop-1260() {
+  @media (min-width: 1260px) {
     @content;
   }
 }
@@ -16,12 +16,12 @@
   grid-template-columns: repeat(2, 130px);
   gap: 20px;
 
-  @include Ipad-600() {
+  @include Ipad-744() {
   grid-template-columns: repeat(6, 80px);
   gap: 24px;
   }
 
-  @include Desktop-1020() {
+  @include Desktop-1260() {
   grid-template-columns: repeat(12, 63px);
   gap: 24px;
   }

@@ -11,30 +11,30 @@
     height: 100%;
     object-fit: cover;
 
-    @include Ipad-600() {
+    @include Ipad-744() {
       grid-column: span 3;
     }
 
-    @include Desktop-1020() {
+    @include Desktop-1260() {
       grid-column: span 6;
 }
 
 &--small {
-  @include Ipad-600() {
+  @include Ipad-744() {
     grid-column: span 2;
   }
 
-  @include Desktop-1020() {
+  @include Desktop-1260() {
     grid-column: span 4;
   }
 }
 
 &--big {
-  @include Ipad-600() {
+  @include Ipad-744() {
     grid-column: span 4;
   }
 
-  @include Desktop-1020() {
+  @include Desktop-1260() {
     grid-column: span 8;
   }
 }
