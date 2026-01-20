@@ -12,6 +12,14 @@
   box-sizing: border-box;
   padding: 0 20px 88px;
 
+  @include Ipad-744() {
+    background-position: center center;
+  }
+
+  @include Desktop-1260() {
+    background-position: center center;
+  }
+
   grid-template-rows: auto auto;
 
   @include grid();

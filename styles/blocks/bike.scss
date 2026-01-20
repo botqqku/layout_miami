@@ -1,9 +1,13 @@
+@use '../utils/mixins.scss' as *;
+
 .bike {
 
   &__photo {
     display: block;
     margin: 0 auto;
     margin-bottom: 32px;
+    max-width: 100%;
+    height: auto;
   }
 
   &__type {
