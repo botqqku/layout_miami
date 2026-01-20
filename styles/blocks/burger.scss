@@ -10,6 +10,18 @@ background-size: cover;
 display: inline-block;
 width: 18px;
 height: 12px;
+
+@include Ipad-600() {
+  width: 24px;
+  height: 16px;
+
+}
+
+@include Desktop-1020(){
+  width: 24px;
+  height: 16px;
+
+}
 }
 
 &::after {
@@ -19,6 +31,18 @@ background-image: url(../../images/menu-vector--hover.svg);
 background-size: cover;
 width: 18px;
 height: 12px;
+
+@include Ipad-600() {
+  width: 24px;
+  height: 24px;
+
+}
+
+@include Desktop-1020(){
+  width: 24px;
+  height: 16px;
+
+}
 }
 
 &:hover {

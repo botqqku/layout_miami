@@ -463,6 +463,16 @@ table {
 .navigation__logo {
   height: 38px;
 }
+@media (min-width: 600px) {
+  .navigation__logo {
+    height: 56px;
+  }
+}
+@media (min-width: 1020px) {
+  .navigation__logo {
+    height: 56px;
+  }
+}
 
 .menu {
   position: fixed;
@@ -682,6 +692,18 @@ table {
   width: 18px;
   height: 12px;
 }
+@media (min-width: 600px) {
+  .burger::before {
+    width: 24px;
+    height: 16px;
+  }
+}
+@media (min-width: 1020px) {
+  .burger::before {
+    width: 24px;
+    height: 16px;
+  }
+}
 .burger::after {
   display: none;
   content: "";
@@ -689,6 +711,18 @@ table {
   background-size: cover;
   width: 18px;
   height: 12px;
+}
+@media (min-width: 600px) {
+  .burger::after {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (min-width: 1020px) {
+  .burger::after {
+    width: 24px;
+    height: 16px;
+  }
 }
 .burger:hover::before {
   display: none;
@@ -720,6 +754,22 @@ table {
   color: #FFFFFF;
   position: absolute;
   transform: translateX(calc(-100% - 20px));
+}
+.phone__icon {
+  height: 18px;
+  width: 18px;
+}
+@media (min-width: 600px) {
+  .phone__icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (min-width: 1020px) {
+  .phone__icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 .phone:not(:hover) .phone__label {
   clip: rect(0 0 0 0);

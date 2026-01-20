@@ -20,6 +20,23 @@ transform: translateX(calc(-100% - 20px));
 
   }
 
+  &__icon {
+    height: 18px;
+    width: 18px;
+
+  @include Ipad-600() {
+  width: 24px;
+  height: 24px;
+
+}
+
+  @include Desktop-1020(){
+  width: 24px;
+  height: 24px;
+
+}
+  }
+
   &:not(:hover) &__label {
     @include visually-hidden();
   }

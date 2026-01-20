@@ -1,3 +1,5 @@
+@use '../utils/mixins.scss' as *;
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -13,5 +15,15 @@
 
   &__logo {
     height: 38px;
+
+    @include Ipad-600() {
+  height: 56px;
+
+}
+
+@include Desktop-1020(){
+  height: 56px;
+
+}
   }
 }
