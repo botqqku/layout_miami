@@ -529,6 +529,9 @@ table {
   letter-spacing: 0px;
   color: #7E7E83;
 }
+.form__input:hover::placeholder {
+  color: #292929;
+}
 .form__textarea {
   border-radius: 16px;
   background-color: #F8F8FA;
@@ -545,7 +548,7 @@ table {
   font-size: 14px;
   color: #7E7E83;
 }
-.form__textarea::placeholder:hover {
+.form__textarea:hover::placeholder {
   color: #292929;
 }
 .form__label:not(:focus):not(:active) {

@@ -24,7 +24,9 @@
       letter-spacing: 0px;
       color: #7E7E83;
     }
-
+    &:hover::placeholder {
+      color: #292929;
+    }
   }
 
   &__textarea {
@@ -42,20 +44,17 @@
       font-style: Regular;
       font-size: 14px;
       color: #7E7E83;
-
-      &:hover {
-        color: #292929;
-        
-      }
-
     }
+    &:hover::placeholder {
+      color: #292929;
+    }
+
   }
 
   &__label {
-
     &:not(:focus):not(:active) {
       @include visually-hidden();
     }
-
 }
+
 }
