@@ -459,7 +459,17 @@ table {
   letter-spacing: 0px;
   text-align: center;
   color: #1D1D1D;
-  margin-bottom: 48px;
+  margin-bottom: 28px;
+}
+@media (min-width: 744px) {
+  .button--primary {
+    margin-bottom: 120px;
+  }
+}
+@media (min-width: 1260px) {
+  .button--primary {
+    margin-bottom: 180px;
+  }
 }
 .button__explore {
   margin-bottom: 28px;
@@ -467,16 +477,15 @@ table {
 }
 @media (min-width: 744px) {
   .button__explore {
-    grid-column: 2/5;
+    grid-column: 2/6;
+    margin-bottom: 68px;
   }
 }
 @media (min-width: 1260px) {
   .button__explore {
-    grid-column: 6/8;
+    grid-column: 5/9;
+    margin-bottom: 128px;
   }
-}
-.button__explore__send {
-  margin-bottom: 48px;
 }
 
 .form {
@@ -634,7 +643,7 @@ table {
   grid-column: span 2;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
 }
 .menu {
   display: grid;
