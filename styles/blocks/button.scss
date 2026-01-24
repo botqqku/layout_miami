@@ -28,6 +28,11 @@ text-align: center;
 color: #1D1D1D;
 margin-bottom:28px;
 
+&:hover {
+    background-color: #FFFFFF;
+    box-shadow: 1px 4px 16px 0px #E8E8F066;
+}
+
 @include Ipad-744(){
   margin-bottom: 120px;
 }
@@ -35,6 +40,7 @@ margin-bottom:28px;
 @include Desktop-1260() {
 margin-bottom: 180px;
 }
+
 }
 
 &__explore {
@@ -50,6 +56,9 @@ margin-bottom: 180px;
     grid-column: 5 / 9;
     margin-bottom: 128px;
 }
-
+&:hover {
+    background-color: #FFFFFF;
+    box-shadow: 1px 4px 16px 0px #E8E8F066;
+}
 }
 }

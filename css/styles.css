@@ -470,6 +470,10 @@ table {
   color: #1D1D1D;
   margin-bottom: 28px;
 }
+.button--primary:hover {
+  background-color: #FFFFFF;
+  box-shadow: 1px 4px 16px 0px rgba(232, 232, 240, 0.4);
+}
 @media (min-width: 744px) {
   .button--primary {
     margin-bottom: 120px;
@@ -495,6 +499,10 @@ table {
     grid-column: 5/9;
     margin-bottom: 128px;
   }
+}
+.button__explore:hover {
+  background-color: #FFFFFF;
+  box-shadow: 1px 4px 16px 0px rgba(232, 232, 240, 0.4);
 }
 
 .form {
@@ -536,6 +544,9 @@ table {
   font-style: Regular;
   font-size: 14px;
   color: #7E7E83;
+}
+.form__textarea::placeholder:hover {
+  color: #292929;
 }
 .form__label:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
