@@ -589,6 +589,10 @@ table {
 .address__spacing {
   margin-bottom: 120px;
 }
+.address__nap-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 .footer {
   height: 200px;
@@ -931,6 +935,10 @@ table {
   color: #FFFFFF;
   position: absolute;
   transform: translateX(calc(-100% - 20px)) translateY(5px);
+}
+.phone__link {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 .phone__icon {
   height: 18px;

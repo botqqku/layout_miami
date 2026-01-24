@@ -20,6 +20,12 @@ transform: translateX(calc(-100% - 20px)) translateY(5px);
 
   }
 
+  &__link {
+  color: #FFFFFF;
+  text-decoration: none;
+
+  }
+
   &__icon {
     height: 18px;
     width: 18px;
