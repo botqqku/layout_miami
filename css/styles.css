@@ -151,6 +151,7 @@ table {
 @media (min-width: 1260px) {
   .title--tertiary {
     padding-bottom: 0px;
+    grid-column: 1/9;
   }
 }
 
@@ -374,6 +375,14 @@ table {
 @media (min-width: 1260px) {
   .details__paragraph {
     margin-bottom: 48px;
+    grid-column: 1/9;
+  }
+}
+@media (min-width: 1260px) {
+  .details__content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1/9;
   }
 }
 

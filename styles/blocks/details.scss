@@ -17,6 +17,14 @@ margin-bottom: 48px;
 
 @include Desktop-1260() {
   margin-bottom: 48px;
+  grid-column: 1 / 9;
 }
   }
+  &__content {
+    @include Desktop-1260() {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / 9;
+  }
+}
 }
