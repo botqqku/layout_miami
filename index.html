@@ -16,13 +16,13 @@
       <nav class="navigation header__navigation">
         <a href="#home">
           <img class="navigation__logo" src="images/mybike-white.svg"
-         alt="#">
+         alt="MyBike-white-logo">
         </a>
         <div class="navigation__icons">
           <a class="phone" href="tel:+1 234 555-55-55">
             <span class="phone__label">+1 234 5555-55-55</span>
             <img class="phone__icon" src="images/phone-vector.svg"
-           alt="#">
+           alt="phone-icon">
           </a>
           <a class="burger" href="#menu">
             <span class="burger__label">Open menu</span>
@@ -38,12 +38,12 @@
       <nav class="navigation menu__navigation">
         <a href="#home">
           <img class="navigation__logo" src="images/mybike-black.svg"
-         alt="logo">
+         alt="MyBike-black-logo">
         </a>
         <div class="navigation__icons">
           <a href="#home">
             <img class="navigation__close-icon" src="images/close-vector.svg"
-           alt="menu">
+           alt="navigation__close-icon">
           </a>
         </div>
       </nav>
@@ -51,8 +51,8 @@
       <nav class="links menu__links">
         <ul class="links__list">
           <li class="link__item"><a class="links__link" href="#home">Home</a></li>
-          <li class="link__item"><a class="links__link" href="#about us">About us</a></li>
-          <li class="link__item"><a class="links__link" href="#compare bikes">Compare bikes</a></li>
+          <li class="link__item"><a class="links__link" href="#about-us">About us</a></li>
+          <li class="link__item"><a class="links__link" href="#compare-bikes">Compare bikes</a></li>
           <li class="link__item"><a class="links__link" href="#details">Details</a></li>
           <li class="link__item"><a class="links__link links__spacing" href="#contacts">Contacts</a></li>
         </ul>
@@ -60,14 +60,14 @@
       <div class="menu__contact-box">
         <p class="menu__paragraph">+1 234 5555-55-55</p>
         <p class="menu__paragraph">
-          <a class="menu__call-link" href="#">Book a test ride</a>
+          <a class="menu__call-link" href="tel:+1 234 555-55-55">Book a test ride</a>
         </p>
 
       </div>
 
     </div>
 
-    <main class="main" id="about us">
+    <main class="main" id="about-us">
       <h2 class="title title--secondary main__title">
         Move Free
       </h2>
@@ -77,7 +77,7 @@
         </p>
       </div>
 
-      <section class="section main__section" id="compare bikes">
+      <section class="section main__section" id="compare-bikes">
         <h2 class="title title--section">Compare Bikes</h2>
 
         <div class="grid">
@@ -196,7 +196,7 @@
                placeholder="Message" required></textarea>
             </div>
 
-            <button class="button button--primary button__send">Send</button>
+            <button type="submit" class="button button--primary button__send">Send</button>
           </form>
 
           <address class="address contact__address">
@@ -235,6 +235,14 @@
       }
 
       form.reset();
+    });
+
+    window.addEventListener('hashchange', () => {
+      if (window.location.hash === '#menu') {
+        document.body.classList.add('page__body--with-menu');
+      } else {
+        document.body.classList.remove('page__body--with-menu');
+      }
     });
     </script>
   </body>

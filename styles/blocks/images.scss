@@ -11,6 +11,13 @@
     height: 100%;
     object-fit: cover;
 
+    &:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+      filter: brightness(0.9);
+      cursor: pointer;
+    }
+
     @include Ipad-744() {
       grid-column: span 3;
     }
