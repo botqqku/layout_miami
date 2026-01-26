@@ -1,24 +1,24 @@
 @import './utils/reset';
 
 html {
-  scroll-behavior: smooth; // Plynne scrollowanie
+  scroll-behavior: smooth;
 }
 
-@import '../styles/blocks/title';
-@import '../styles/blocks/header';
-@import '../styles/blocks/main';
-@import '../styles/blocks/bike';
-@import '../styles/blocks/details';
-@import '../styles/blocks/images';
-@import '../styles/blocks/button';
-@import '../styles/blocks/form';
-@import '../styles/blocks/section';
-@import '../styles/blocks/address';
-@import '../styles/blocks/footer';
-@import '../styles/blocks/navigation';
-@import '../styles/blocks/menu';
-@import '../styles/blocks/links';
-@import '../styles/blocks/grid';
-@import '../styles/blocks/contact';
-@import '../styles/blocks/burger';
-@import '../styles/blocks/phone';
+@import './blocks/title';
+@import './blocks/header';
+@import './blocks/main';
+@import './blocks/bike';
+@import './blocks/details';
+@import './blocks/images';
+@import './blocks/button';
+@import './blocks/form';
+@import './blocks/section';
+@import './blocks/address';
+@import './blocks/footer';
+@import './blocks/navigation';
+@import './blocks/menu';
+@import './blocks/links';
+@import './blocks/grid';
+@import './blocks/contact';
+@import './blocks/burger';
+@import './blocks/phone';

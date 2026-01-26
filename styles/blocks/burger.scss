@@ -3,7 +3,7 @@
 .burger {
   &::before {
     content: '';
-    background-image: url(/images/menu-vector.svg);
+    background-image: url('../images/menu-vector.svg');
     background-size: cover;
     display: inline-block;
     width: 18px;
@@ -23,7 +23,7 @@
   &::after {
     display: none;
     content: '';
-    background-image: url(/images/menu-vector--hover.svg);
+    background-image: url('../images/menu-vector--hover.svg');
     background-size: cover;
     width: 18px;
     height: 12px;
