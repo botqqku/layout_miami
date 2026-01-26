@@ -1,5 +1,9 @@
 @import './utils/reset';
 
+html {
+  scroll-behavior: smooth; // Plynne scrollowanie
+}
+
 @import '../styles/blocks/title';
 @import '../styles/blocks/header';
 @import '../styles/blocks/main';

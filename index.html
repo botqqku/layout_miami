@@ -168,7 +168,6 @@
           </div>
         </article>
       </section>
-
       <a href="#" class="button button__explore">Explore</a>
 
       <section class="section main__section" id="contacts">
@@ -177,21 +176,24 @@
           <form class="form contact__form">
             <div class="form__item">
               <label for="name" class="form__label">Name</label>
-              <input id="name"
+              <input id="name" name="name"
              class="form__input" type="text"
-             placeholder="Name">
+             placeholder="Name" required>
             </div>
 
             <div class="form__item">
               <label for="email" class="form__label">Email</label>
-              <input id="email" class="form__input"
-               type="text" placeholder="Email">
+              <input id="email" name="email"
+               class="form__input" type="email"
+               placeholder="Email"
+               required>
             </div>
 
             <div class="form__item">
               <label for="message" class="form__label">Message</label>
-              <textarea id="message" class="form__textarea"
-               placeholder="Message"></textarea>
+              <textarea id="message" name="message"
+               class="form__textarea"
+               placeholder="Message" required></textarea>
             </div>
 
             <button class="button button--primary button__send">Send</button>
@@ -215,11 +217,25 @@
               </a>
             </p>
           </address>
-
         </div>
       </section>
     </main>
     <footer class="footer">
     </footer>
+
+    <script>
+    const form = document.querySelector('.contact__form');
+
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      form.reset();
+    });
+    </script>
   </body>
 </html>
