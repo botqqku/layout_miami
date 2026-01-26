@@ -1,8 +1,7 @@
 @use '../utils/mixins.scss' as *;
 
 .grid {
-
-  @include grid ();
+  @include grid();
 
   &__bike {
     grid-column: span 2;
@@ -13,7 +12,6 @@
 
     @include Desktop-1260() {
       grid-column: span 4;
-
     }
   }
 }

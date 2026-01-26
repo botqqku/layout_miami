@@ -13,10 +13,10 @@
   box-sizing: border-box;
 
   @include Ipad-744() {
-  height: 480px;
+    height: 480px;
   }
 
   @include Desktop-1260() {
-  height: 555px;
+    height: 555px;
   }
 }

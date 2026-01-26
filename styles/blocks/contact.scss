@@ -1,18 +1,16 @@
 @use '../utils/mixins.scss' as *;
 
 .contact {
-
   @include grid();
 
   &__form {
     grid-column: span 2;
 
-
-    @include Ipad-744(){
+    @include Ipad-744() {
       grid-column: span 3;
     }
 
-    @include Desktop-1260(){
+    @include Desktop-1260() {
       grid-column: 1 / 6;
     }
   }
@@ -20,12 +18,12 @@
   &__address {
     grid-column: span 2;
 
-    @include Ipad-744(){
+    @include Ipad-744() {
       grid-column: span 3;
     }
 
-    @include Desktop-1260(){
+    @include Desktop-1260() {
       grid-column: -6 / -1;
+    }
   }
-}
 }

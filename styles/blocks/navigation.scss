@@ -13,31 +13,26 @@
   }
 
   &__close-icon {
-   height: 16px;
+    height: 16px;
 
     @include Ipad-744() {
-  height: 21px;
+      height: 21px;
+    }
 
-}
-
-@include Desktop-1260(){
-  height: 21px;
-
-}
-
+    @include Desktop-1260() {
+      height: 21px;
+    }
   }
 
   &__logo {
     height: 38px;
 
     @include Ipad-744() {
-  height: 56px;
+      height: 56px;
+    }
 
-}
-
-@include Desktop-1260(){
-  height: 56px;
-
-}
+    @include Desktop-1260() {
+      height: 56px;
+    }
   }
 }

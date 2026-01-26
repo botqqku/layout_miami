@@ -10,20 +10,20 @@
   }
 }
 
-@mixin grid () {
+@mixin grid() {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 130px);
   gap: 20px;
 
   @include Ipad-744() {
-  grid-template-columns: repeat(6, 80px);
-  gap: 24px;
+    grid-template-columns: repeat(6, 80px);
+    gap: 24px;
   }
 
   @include Desktop-1260() {
-  grid-template-columns: repeat(12, 63px);
-  gap: 24px;
+    grid-template-columns: repeat(12, 63px);
+    gap: 24px;
   }
 }
 
