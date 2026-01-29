@@ -15,14 +15,13 @@
     font-size: 22px;
     line-height: 22px;
     letter-spacing: 2px;
-    vertical-align: middle;
     text-transform: uppercase;
     border-bottom: 1px solid transparent;
     color: #1d1d1d;
     text-decoration: none;
+    padding-bottom: 8px;
 
     &:hover {
-      padding-bottom: 8px;
       border-bottom: 1px solid #1d1d1d;
     }
   }
