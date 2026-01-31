@@ -71,13 +71,11 @@
     &__paragraph {
       grid-column: span 6;
     }
-
   }
 
   @include Desktop-1260() {
     grid-template-columns: repeat(12, 1fr);
     row-gap: 20px;
-
 
     &__contact-box,
     &__navigation,
