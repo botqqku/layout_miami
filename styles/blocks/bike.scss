@@ -2,11 +2,11 @@
 
 .bike {
   &__photo {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 32px;
+    display: flex;
     max-width: 100%;
     height: auto;
+    margin-bottom: 32px;
+
 
     &:hover {
       transform: scale(1.05);

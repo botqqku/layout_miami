@@ -1,17 +1,20 @@
 @use '../utils/mixins.scss' as *;
 
 .grid {
-  @include grid();
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 clamp(20px, 5vw, 80px) 52px;
 
-  &__bike {
-    grid-column: span 2;
+  @include Ipad-744() {
+    margin: 0 clamp(176px, 5vw, 200px) 80px;
 
-    @include Ipad-744() {
-      grid-column: 2 / 6;
-    }
-
-    @include Desktop-1260() {
-      grid-column: span 4;
-    }
   }
+  @include Desktop-1260() {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+
 }
