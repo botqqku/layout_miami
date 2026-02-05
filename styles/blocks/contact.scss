@@ -3,13 +3,6 @@
 .contact {
   padding: 0 0;
 
-  @include Ipad-744() {
-    padding: 0 clamp(72px, 5vw, 100px);
-  }
-
-  @include Desktop-1260() {
-    padding: 0 clamp(120px, 5vw, 200px);
-  }
   @include grid();
 
   &__form {

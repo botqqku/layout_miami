@@ -6,8 +6,8 @@ margin: 0 auto;
 padding: 0 20px;
 
 @include Ipad-744() {
-  max-width: 644px;
   padding: 0 72px;
+  max-width: 644px;
 }
 
 @include Desktop-1260() {
