@@ -3,18 +3,16 @@
 .images {
   display: grid;
   gap: 16px;
-  padding: 0 20px;
+  padding: 0 ;
   box-sizing: border-box;
   margin-bottom: 16px;
 
   @include grid();
 
   @include Ipad-744() {
-    padding: 0 72px;
   }
-
   @include Desktop-1260() {
-    padding: 0 120px;
+
   }
 
   &__item {

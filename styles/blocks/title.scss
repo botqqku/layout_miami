@@ -82,14 +82,14 @@
     letter-spacing: 0px;
     text-align: left;
     margin-bottom: 8px;
-    margin: 0 clamp(20px, 5vw, 80px) 8px;
+    margin: 0 0 8px;
 
     @include Ipad-744() {
-      margin: 0 clamp(72px, 5vw, 80px) 8px;
+
     }
 
     @include Desktop-1260() {
-      margin: 0 clamp(120px, 10vw, 120px) 8px;
+
     }
   }
 }
