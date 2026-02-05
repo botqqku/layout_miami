@@ -3,7 +3,7 @@
 .images {
   display: grid;
   gap: 16px;
-  padding: 0 ;
+  padding: 0;
   box-sizing: border-box;
   margin-bottom: 16px;
 
@@ -12,7 +12,6 @@
   @include Ipad-744() {
   }
   @include Desktop-1260() {
-
   }
 
   &__item {
@@ -26,27 +25,25 @@
       cursor: pointer;
     }
 
-
     &--small {
       grid-column: span 1;
 
       @include Ipad-744() {
         grid-column: span 2;
-    }
+      }
       @include Desktop-1260() {
         grid-column: span 4;
       }
     }
 
-
     &--big {
       grid-column: span 1;
 
       @include Ipad-744() {
-         grid-column: span 4;
+        grid-column: span 4;
       }
       @include Desktop-1260() {
-         grid-column: span 8;
+        grid-column: span 8;
       }
     }
   }

@@ -15,7 +15,6 @@
   text-align: center;
   display: block;
 
-
   &--primary {
     font-family: Poppins;
     font-weight: 700;
@@ -42,7 +41,6 @@
   }
 
   &__explore {
-
     @include Ipad-744() {
       margin: 0 102px;
     }

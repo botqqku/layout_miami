@@ -5,13 +5,10 @@
   flex-direction: column;
   flex: 1;
 
-
-
   &__photo {
     max-width: 100%;
     height: auto;
     margin-bottom: 32px;
-
 
     &:hover {
       transform: scale(1.05);
@@ -38,7 +35,6 @@
     line-height: 140%;
     letter-spacing: 0px;
     margin-bottom: 16px;
-
   }
 
   &__price {

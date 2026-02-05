@@ -63,7 +63,6 @@
       font-size: 48px;
       line-height: 100%;
       letter-spacing: -1.5px;
-
     }
 
     @include Desktop-1260() {
@@ -85,11 +84,9 @@
     margin: 0 0 8px;
 
     @include Ipad-744() {
-
     }
 
     @include Desktop-1260() {
-
     }
   }
 }
