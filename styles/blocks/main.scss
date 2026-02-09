@@ -23,7 +23,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 32px;
-    margin: 0 clamp(20px, 5vw, 80px) 92px;
+    margin: 0 clamp(20px, 8vw, 80px) 92px;
 
     @include Ipad-744() {
       flex-direction: row;
@@ -36,7 +36,7 @@
       flex-direction: row;
       justify-content: space-between;
       gap: 88px;
-      margin: 0 clamp(120px, 10vw, 200px) 164px;
+      margin: 0 clamp(120px, 10vw, 150px) 164px;
     }
   }
 
